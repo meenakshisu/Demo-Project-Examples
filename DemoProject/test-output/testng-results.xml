@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login validatation" duration-ms="89041" started-at="2020-04-26T16:57:49 IST" finished-at="2020-04-26T16:59:18 IST">
+    <groups>
+    </groups>
+    <test name="BothCorrect" duration-ms="47979" started-at="2020-04-26T16:57:49 IST" finished-at="2020-04-26T16:58:37 IST">
+      <class name="loginTestcase.BothCorrect">
+        <test-method status="PASS" signature="bothincorrect(java.lang.String, java.lang.String)[pri:0, instance:loginTestcase.BothCorrect@6fc6f14e]" name="bothincorrect" duration-ms="47899" started-at="2020-04-26T16:57:49 IST" finished-at="2020-04-26T16:58:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bothincorrect -->
+      </class> <!-- loginTestcase.BothCorrect -->
+    </test> <!-- BothCorrect -->
+    <test name="BothinCorrect" duration-ms="13747" started-at="2020-04-26T16:58:37 IST" finished-at="2020-04-26T16:58:51 IST">
+      <class name="loginTestcase.BothinCorrect">
+        <test-method status="PASS" signature="bothincorrect(java.lang.String, java.lang.String)[pri:0, instance:loginTestcase.BothinCorrect@61f8bee4]" name="bothincorrect" duration-ms="13728" started-at="2020-04-26T16:58:37 IST" finished-at="2020-04-26T16:58:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bothincorrect -->
+      </class> <!-- loginTestcase.BothinCorrect -->
+    </test> <!-- BothinCorrect -->
+    <test name="PasswordCorrect" duration-ms="14530" started-at="2020-04-26T16:58:51 IST" finished-at="2020-04-26T16:59:06 IST">
+      <class name="loginTestcase.PasswordCorrect">
+        <test-method status="PASS" signature="passwordcorrect(java.lang.String, java.lang.String)[pri:0, instance:loginTestcase.PasswordCorrect@23e028a9]" name="passwordcorrect" duration-ms="14520" started-at="2020-04-26T16:58:51 IST" finished-at="2020-04-26T16:59:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin4123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordcorrect -->
+      </class> <!-- loginTestcase.PasswordCorrect -->
+    </test> <!-- PasswordCorrect -->
+    <test name="UsernameCorrect" duration-ms="11930" started-at="2020-04-26T16:59:06 IST" finished-at="2020-04-26T16:59:18 IST">
+      <class name="loginTestcase.UsernameCorrect">
+        <test-method status="PASS" signature="usernamecorrect(java.lang.String, java.lang.String)[pri:0, instance:loginTestcase.UsernameCorrect@2b552920]" name="usernamecorrect" duration-ms="11924" started-at="2020-04-26T16:59:06 IST" finished-at="2020-04-26T16:59:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernamecorrect -->
+      </class> <!-- loginTestcase.UsernameCorrect -->
+    </test> <!-- UsernameCorrect -->
+  </suite> <!-- Login validatation -->
+</testng-results>
